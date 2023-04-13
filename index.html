@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StopwatchTimer</title>
+        <!-- link css -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- gooogle fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet">
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+
+        <!-- font awsome -->
+        <script src="https://kit.fontawesome.com/33c005a0aa.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- stopwatch -->
+        <div class="outer-card">
+
+            <div class="cir1">
+                <h1>StopWatch</h1>
+                <div class="inner-card-1">
+
+                    <div class="circle1 target">
+                        <p class="stopwatch">
+                            <span class="mins">00</span>:<span class="seconds">00</span>:<span class="tens">00</span>
+                        </p>
+                    </div>
+<br>
+                    <button class=" target1 btn-start btn btn-outline-info btn-lg">Start</button>
+                    <button class=" target1 btn-stop btn btn-outline-info btn-lg">Stop</button>
+                    <button class=" target1 btn-reset btn btn-outline-info btn-lg">Reset</button>
+                </div>
+            </div>
+
+            <!-- Timer -->
+            <div class="cir2 ">
+                <h1>Timer</h1>
+                <div class="inner-card-1">
+                    <div class="circle1 target">
+                        <p class="timer">
+                            <span class="mins">00</span>:<span class="seconds">00</span>:<span class="tens">00</span>
+                        </p>
+                    </div>
+                    <div class="timer-time">
+                        <input class="timer-minutes" type="number" placeholder="Minutes">
+                        <input class="timer-seconds" type="number" placeholder="Seconds">
+                    </div>
+
+                    <button class=" target1 btn-start btn btn-outline-info btn-lg">Start</button>
+                    <button class=" target1 btn-stop btn btn-outline-info btn-lg">Stop</button>
+                    <button class=" target1 btn-reset btn btn-outline-info btn-lg">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="stopwatch.js"></script>
+
+    </body>
+</html>

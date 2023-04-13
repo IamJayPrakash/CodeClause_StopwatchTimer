@@ -1,0 +1,107 @@
+body {
+    font-family: "montserrat";
+    background-color: #000;
+}
+
+.cir1 {
+    border-radius: 50px;
+    color: rgb(163, 239, 230);
+    height: 620px;
+    width: 400px;
+
+    border: 20px;
+    text-align: center;
+    box-shadow: #000;
+    box-shadow: 0 0 500px rgba(3, 255, 234, 0.959);
+    /* background-color:; */
+    padding: 2%;
+    margin-top: 10px;
+    /* background: linear-gradient(30deg, rgb(5, 5, 5), rgb(252, 255, 95));  */
+}
+.cir2 {
+    border-radius: 50px;
+    color: rgb(163, 239, 230);
+    height: 620px;
+    width: 400px;
+
+    border: 20px;
+    padding: 2%;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: #000;
+    box-shadow: 0 0 500px rgba(3, 255, 234, 0.959);
+    /* background-color:; */
+
+}
+.outer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    padding: 3%;
+    /* background: linear-gradient(30deg, rgb(62, 151, 125), rgb(15, 15, 14));  */
+}
+.inner-card-1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+/*    
+   changed here */
+    padding-top: 0px;
+    top: 331.0663;
+    top: 250px;
+
+}
+
+.circle1 {
+    /* border-radius: 100%;
+    padding: 30%;
+    background-color: rgb(113, 237, 183);
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+
+    padding-left:25px; */
+    border-radius: 50%;
+background: #05e6ff;
+box-shadow: inset 17px 17px 34px #ffffff,
+            inset -17px -17px 34px #fffefe;
+padding-top:25%;
+padding-bottom: 25%;
+}
+
+.stopwatch,
+.timer {
+    font-family: "montserrat";
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+}
+.timer-seconds,
+.timer-minutes {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: "sacremanto";
+    margin:10px;
+}
+
+.target {
+    transform:  scale(1);
+  }
+.target:hover {
+    transform:  scale(1.01); /* Only the value of scale() changed */
+  }
+
+  .target1 {
+    transform:  scale(1);
+  }
+.target1:hover {
+
+    transform:  scale(1.02); /* Only the value of scale() changed */
+  }
+
+  
